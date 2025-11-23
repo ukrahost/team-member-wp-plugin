@@ -15,17 +15,9 @@ A custom WordPress plugin to manage team members using a custom post type, taxon
 
 ## Shortcode Usage
 
-Shortcode: `\[team_members_grid\]`
+Shortcode: `[team_members_grid]`
 
-Parameters:
-
-- `unit` (optional): Work Unit slug to filter team members by taxonomy `work_unit`.
-- `count` (optional): Maximum number of team members to display. Default is `9`.
-
-Examples:
-
-- `\[team_members_grid\]`  
-  Displays up to 9 team members from any work unit.
+- Displays up to 9 team members from any work unit.
 
 ## API Endpoint Usage
 
