@@ -1,0 +1,54 @@
+.team-manager-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-manager-card {
+  box-sizing: border-box;
+  flex: 1 1 calc(33.333% - 20px);
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.team-manager-name {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+
+.team-manager-unit {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.team-manager-description {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.team-manager-email {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.team-manager-linkedin {
+  display: inline-block;
+  font-size: 13px;
+  text-decoration: none;
+  border: 1px solid #0a66c2;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.team-manager-linkedin:hover {
+  background-color: #0a66c2;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .team-manager-card {
+    flex: 1 1 100%;
+  }
+}
