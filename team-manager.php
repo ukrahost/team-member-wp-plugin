@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Team Manager
- * Plugin URI: https://www.eliezersanchez.dev
+ * Plugin URI: https://github.com/ukrahost/team-member-wp-plugin
  * Description: Manage team members with custom post type, taxonomy, meta fields, shortcode and REST API endpoint.
  * Version: 1.0.3
  * Author: Eliezer Sánchez
